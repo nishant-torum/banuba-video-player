@@ -30,29 +30,8 @@ async function startIosVideoEditor() {
   return await VideoEditorModule.openVideoEditor();
 }
 
-async function startIosVideoEditorPIP() {
-  initVideoEditor();
-  return await VideoEditorModule.openVideoEditorPIP();
-}
-
-async function startIosVideoEditorTrimmer() {
-  initVideoEditor();
-  return await VideoEditorModule.openVideoEditorTrimmer();
-}
-
-async function startAndroidVideoEditorTrimmer() {
-  initVideoEditor();
-  // return await VideoEditorModule.openVideoEditorTrimmer();
-}
-
 async function startAndroidVideoEditor() {
   initVideoEditor();
-  return await VideoEditorModule.openVideoEditor();
-}
-
-async function startAndroidVideoEditorPIP() {
-  initVideoEditor();
-  return await VideoEditorModule.openVideoEditorPIP();
 }
 
 export default class App extends Component {
